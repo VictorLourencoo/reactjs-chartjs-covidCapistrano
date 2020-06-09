@@ -101,11 +101,9 @@ class Chart extends Component {
   };
 
   DesvioPadrao = () => {
-    var media = 0;
-    for (var i = 0; i < 31; i++) {
-      media += casos[i];
-    }
+    var numCasos = 161;
 
+    var media = numCasos / 31;
     media = media / 31;
     media = Math.round(media);
     this.setState({ Media: media });
