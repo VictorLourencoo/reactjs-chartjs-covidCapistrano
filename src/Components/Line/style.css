@@ -1,0 +1,19 @@
+body {
+  background-color: seashell;
+}
+
+h1 {
+  display: flex;
+}
+button {
+  height: 40px;
+  position: relative;
+  margin-top: 320px;
+  margin-left: -100px;
+  background-color: gainsboro;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.button:hover {
+  filter: brightness(50%);
+}
